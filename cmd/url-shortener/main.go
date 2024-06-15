@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log/slog"
 	"os"
 	"url-shortener-go/internal/config"
@@ -64,6 +65,11 @@ func main() {
 	//	os.Exit(1)
 	//}
 	//fmt.Println(str, "test")
+	//
+	//if storage.DeleteURL("google") != nil {
+	//	log.Error("Failed to delete url", sl.Err(err))
+	//	os.Exit(1)
+	//}
 
 	//id, err = storage.SaveURL("https://google.az", "google")
 	//if err != nil {
