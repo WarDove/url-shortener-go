@@ -50,7 +50,29 @@ func main() {
 		os.Exit(1)
 	}
 
-	_ = storage
+	//id, err := storage.SaveURL("https://google.com", "google")
+	//if err != nil {
+	//	log.Error("Failed to save url", sl.Err(err))
+	//	os.Exit(1)
+	//}
+	//
+	//log.Info("saved url", slog.Int64("id", id))
+
+	//str, err := storage.GetURL("google")
+	//if err != nil {
+	//	log.Error("Failed to get url", sl.Err(err))
+	//	os.Exit(1)
+	//}
+	//fmt.Println(str, "test")
+
+	//id, err = storage.SaveURL("https://google.az", "google")
+	//if err != nil {
+	//	log.Error("Failed to save url", sl.Err(err))
+	//	os.Exit(1)
+	//}
+	//
+	//log.Info("saved url", slog.Int64("id", id))
+
 	// TODO: init router: chi, chi render
 	// TODO: run server
 }
