@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log/slog"
 	"os"
 	"url-shortener-go/internal/config"
@@ -50,6 +49,8 @@ func main() {
 		log.Error("Failed to initialize storage", sl.Err(err))
 		os.Exit(1)
 	}
+
+	_ := storage
 
 	//id, err := storage.SaveURL("https://google.com", "google")
 	//if err != nil {
