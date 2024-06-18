@@ -50,7 +50,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	_ := storage
+	_ = storage
 
 	//id, err := storage.SaveURL("https://google.com", "google")
 	//if err != nil {
